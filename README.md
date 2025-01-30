@@ -1,112 +1,99 @@
-Voice-Based Email for Visually Challenged People
+# Voice-Based Email for Visually Challenged People
 
 
 
 Voice-Based Email for Visually Challenged People is a project aimed at developing an accessible email application that enables visually challenged individuals to compose, send, and manage emails using voice commands. This project leverages speech recognition, text-to-speech technologies, and Interactive Voice Response (IVR) for an enhanced user experience. Unlike traditional email systems, this application has a minimal, noise-free interface specifically designed for blind users.
 
-Features
+## Features
 
-Voice-controlled email composition and sending
+- **Voice-controlled email composition and sending**
+- **Inbox management through voice commands**
+- **Text-to-speech functionality for reading incoming emails**
+- **Integrated with Gmail API for secure email communication**
+- **IVR technology for better user interaction**
+- **Minimal and less noisy interface designed for blind users**
 
-Inbox management through voice commands
+## Installation
 
-Text-to-speech functionality for reading incoming emails
+1. Clone the repository:
 
-Integrated with Gmail API for secure email communication
+   ```shell
+   git clone https://github.com/your-username/Voice-Based-email-for-Visually-Challenged-people.git
+   ```
 
-IVR technology for better user interaction
+2. Install the required dependencies:
 
-Minimal and less noisy interface designed for blind users
+   ```shell
+   pip install -r requirements.txt
+   ```
 
-Installation
+3. Configure the email account credentials and settings in `config.py`.
 
-Clone the repository:
+4. Run the application:
 
-git clone https://github.com/your-username/Voice-Based-email-for-Visually-Challenged-people.git
+   ```shell
+   python manage.py runserver
+   ```
 
-Install the required dependencies:
+## Usage
 
-pip install -r requirements.txt
+1. Launch the application.
+2. Speak commands to compose and send emails, manage the inbox, and listen to incoming emails.
+3. Follow the voice prompts for further instructions.
 
-Configure the email account credentials and settings in config.py.
-
-Run the application:
-
-python manage.py runserver
-
-Usage
-
-Launch the application.
-
-Speak commands to compose and send emails, manage the inbox, and listen to incoming emails.
-
-Follow the voice prompts for further instructions.
-
-Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and test them thoroughly.
+4. Submit a pull request describing your changes.
 
-Create a new branch.
-
-Make your changes and test them thoroughly.
-
-Submit a pull request describing your changes.
-
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-Acknowledgments
+## Acknowledgments
 
-SpeechRecognition
+- **SpeechRecognition**
+- **pyttsx3**
+- **IMAPClient**
+- **SMTP**
+- **Gmail API**
 
-pyttsx3
+## Credits
 
-IMAPClient
+Developed by **MUNAZIL**
 
-SMTP
-
-Gmail API
-
-Credits
-
-Developed by MUNAZIL
-
-Contact
+## Contact
 
 For any questions or inquiries, please reach out to:
 
-MUNAZILEmail: munazil.v@seaedu.ac.in
+MUNAZIL\
+Email: munazil.v@seaedu.ac.in
 
-Abstract
+## Abstract
 
 One of the most common forms of communication among people is email. A lot of confidential and urgent information is exchanged over emails. There are about 253 million visually impaired people worldwide. These visually impaired people face challenges in digital communication. Since technology is growing day by day, visually challenged people often find themselves at a disadvantage.
 
-To address this issue, we developed a Voice-Based Email System using AI that makes email systems easily accessible for visually challenged individuals. Accessibility was the top priority while developing this system. It provides a seamless and intuitive email experience through voice commands, text-to-speech conversion, and IVR-based interaction. By integrating Gmail API, the system ensures secure and reliable email communication. Unlike traditional email interfaces, this system has a minimal, noise-free design tailored for blind users.
+To address this issue, we developed a **Voice-Based Email System using AI** that makes email systems easily accessible for visually challenged individuals. Accessibility was the top priority while developing this system. It provides a seamless and intuitive email experience through **voice commands**, **text-to-speech conversion**, and **IVR-based interaction**. By integrating **Gmail API**, the system ensures secure and reliable email communication. Unlike traditional email interfaces, this system has a **minimal, noise-free** design tailored for blind users.
 
-Software Requirements
+## Software Requirements
 
-Operating System: Windows NT family (4.0 & above)
+- **Operating System:** Windows NT family (4.0 & above)
+- **Backend:**
+  - SQLlite
+  - Django
+  - python
+  ## \*\*Framework: \*\*
+- gtts
+- playsound
+- speechrecog
 
-Backend:
+## Run Using:
 
-SQLlite
-
-Django
-
-python
-
-**Framework: **
-
-gtts
-
-playsound
-
-speechrecog
-
-Run Using:
-
+```shell
 python manage.py runserver
+```
 
